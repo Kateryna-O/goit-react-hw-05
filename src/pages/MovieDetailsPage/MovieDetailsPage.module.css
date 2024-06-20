@@ -1,0 +1,88 @@
+.wraper {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffbf78;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+.movieDetails {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.poster {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.title {
+  color: #4b2c20;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.overview {
+  color: #4b2c20;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.releaseDate,
+.voteAverage {
+  color: #4b2c20;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.genre {
+  background-color: #ffeea9;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.additionalInfo {
+  margin-top: 20px;
+}
+
+.additionalInfo p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4b2c20;
+  margin-bottom: 10px;
+}
+
+.additionalInfo nav {
+  display: flex;
+  gap: 20px;
+}
+
+.additionalInfo nav a {
+  color: #4b2c20;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #ffeea9;
+  transition: background-color 0.3s;
+}
+
+.additionalInfo nav a:hover {
+  background-color: #ffaa49;
+}

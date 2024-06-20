@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #ffeea9;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #feffd2;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.navlink:hover {
+  color: #feffd2;
+}
+
+.isActive {
+  color: #ffbf78;
+}

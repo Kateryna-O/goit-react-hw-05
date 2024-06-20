@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #ffeea9;
+  border-radius: 8px;
+  background-color: #feffd2;
+  color: #ffbf78;
+  margin-top: 100px;
+}
+
+.icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.h2 {
+  margin: 0 0 10px;
+}

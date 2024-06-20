@@ -1,0 +1,52 @@
+.movieCast {
+  padding: 10px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0 25px 0;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.listItem {
+  width: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #ffeea9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.actorImage {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.actorName {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.characterName {
+  font-style: italic;
+  color: #4b2c20;
+  margin: 5px 0;
+}
+
+.textMessage {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #4b2c20;
+}
